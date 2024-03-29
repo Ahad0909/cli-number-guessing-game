@@ -3,6 +3,7 @@
 import inquirer from "inquirer"
 
 const randomNumber = Math.floor(Math.random() * 6 + 1)
+console.log("Welcome to number guesssing game")
 
 const answers = await inquirer.prompt([{
     name: "userGuessedNumber",
